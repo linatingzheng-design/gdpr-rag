@@ -1,0 +1,160 @@
+{"id": "q001", "lang": "fr", "methode": "bm25", "gold": [17], "top5": [58, 61, 53, 31, 38], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.029411764705882353, "rang_premier": 34}
+{"id": "q001", "lang": "fr", "methode": "dense", "gold": [17], "top5": [12, 34, 85, 35, 21], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 1.0, "mrr": 0.125, "rang_premier": 8}
+{"id": "q001", "lang": "fr", "methode": "hybride", "gold": [17], "top5": [61, 38, 20, 35, 33], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 1.0, "mrr": 0.1111111111111111, "rang_premier": 9}
+{"id": "q001", "lang": "fr", "methode": "hybride+rerank", "gold": [17], "top5": [17, 12, 15, 7, 61], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q002", "lang": "fr", "methode": "bm25", "gold": [37], "top5": [37, 35, 38, 64, 47], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q002", "lang": "fr", "methode": "dense", "gold": [37], "top5": [37, 38, 39, 35, 43], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q002", "lang": "fr", "methode": "hybride", "gold": [37], "top5": [37, 35, 38, 39, 36], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q002", "lang": "fr", "methode": "hybride+rerank", "gold": [37], "top5": [37, 38, 39, 35, 36], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q003", "lang": "fr", "methode": "bm25", "gold": [33], "top5": [41, 77, 56, 60, 33], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.2, "rang_premier": 5}
+{"id": "q003", "lang": "fr", "methode": "dense", "gold": [33], "top5": [36, 33, 61, 64, 60], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.5, "rang_premier": 2}
+{"id": "q003", "lang": "fr", "methode": "hybride", "gold": [33], "top5": [33, 60, 36, 61, 41], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q003", "lang": "fr", "methode": "hybride+rerank", "gold": [33], "top5": [36, 66, 54, 56, 33], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.2, "rang_premier": 5}
+{"id": "q004", "lang": "fr", "methode": "bm25", "gold": [34, 33], "top5": [62, 17, 80, 20, 34], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.5, "recall@10": 0.5, "mrr": 0.2, "rang_premier": 5}
+{"id": "q004", "lang": "fr", "methode": "dense", "gold": [34, 33], "top5": [86, 29, 14, 10, 12], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.058823529411764705, "rang_premier": 17}
+{"id": "q004", "lang": "fr", "methode": "hybride", "gold": [34, 33], "top5": [14, 6, 17, 40, 10], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.07142857142857142, "rang_premier": 14}
+{"id": "q004", "lang": "fr", "methode": "hybride+rerank", "gold": [34, 33], "top5": [34, 29, 15, 86, 17], "recall@1": 0.5, "recall@3": 0.5, "recall@5": 0.5, "recall@10": 0.5, "mrr": 1.0, "rang_premier": 1}
+{"id": "q005", "lang": "fr", "methode": "bm25", "gold": [20], "top5": [46, 53, 37, 41, 28], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q005", "lang": "fr", "methode": "dense", "gold": [20], "top5": [46, 13, 15, 49, 14], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 1.0, "mrr": 0.16666666666666666, "rang_premier": 6}
+{"id": "q005", "lang": "fr", "methode": "hybride", "gold": [20], "top5": [46, 15, 48, 14, 13], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.05263157894736842, "rang_premier": 19}
+{"id": "q005", "lang": "fr", "methode": "hybride+rerank", "gold": [20], "top5": [46, 44, 49, 47, 48], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.05263157894736842, "rang_premier": 19}
+{"id": "q006", "lang": "fr", "methode": "bm25", "gold": [8], "top5": [37, 8, 42, 99, 89], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.5, "rang_premier": 2}
+{"id": "q006", "lang": "fr", "methode": "dense", "gold": [8], "top5": [8, 40, 6, 38, 29], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q006", "lang": "fr", "methode": "hybride", "gold": [8], "top5": [8, 12, 37, 99, 21], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q006", "lang": "fr", "methode": "hybride+rerank", "gold": [8], "top5": [8, 4, 40, 6, 34], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q007", "lang": "fr", "methode": "bm25", "gold": [9], "top5": [9, 11, 30, 4, 62], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q007", "lang": "fr", "methode": "dense", "gold": [9], "top5": [9, 88, 86, 35, 29], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q007", "lang": "fr", "methode": "hybride", "gold": [9], "top5": [9, 88, 29, 4, 11], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q007", "lang": "fr", "methode": "hybride+rerank", "gold": [9], "top5": [9, 88, 29, 4, 5], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q008", "lang": "fr", "methode": "bm25", "gold": [7], "top5": [7, 13, 49, 8, 14], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q008", "lang": "fr", "methode": "dense", "gold": [7], "top5": [7, 8, 85, 40, 13], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q008", "lang": "fr", "methode": "hybride", "gold": [7], "top5": [7, 8, 13, 49, 14], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q008", "lang": "fr", "methode": "hybride+rerank", "gold": [7], "top5": [7, 14, 13, 9, 49], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q009", "lang": "fr", "methode": "bm25", "gold": [35], "top5": [35, 36, 64, 9, 7], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q009", "lang": "fr", "methode": "dense", "gold": [35], "top5": [35, 36, 12, 61, 64], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q009", "lang": "fr", "methode": "hybride", "gold": [35], "top5": [35, 36, 64, 12, 18], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q009", "lang": "fr", "methode": "hybride+rerank", "gold": [35], "top5": [35, 36, 64, 18, 12], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q010", "lang": "fr", "methode": "bm25", "gold": [28], "top5": [7, 9, 28, 37, 14], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.3333333333333333, "rang_premier": 3}
+{"id": "q010", "lang": "fr", "methode": "dense", "gold": [28], "top5": [37, 38, 28, 13, 7], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.3333333333333333, "rang_premier": 3}
+{"id": "q010", "lang": "fr", "methode": "hybride", "gold": [28], "top5": [37, 28, 7, 14, 13], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.5, "rang_premier": 2}
+{"id": "q010", "lang": "fr", "methode": "hybride+rerank", "gold": [28], "top5": [28, 13, 20, 6, 7], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q011", "lang": "fr", "methode": "bm25", "gold": [44, 45, 46], "top5": [49, 44, 97, 83, 45], "recall@1": 0.0, "recall@3": 0.3333333333333333, "recall@5": 0.6666666666666666, "recall@10": 1.0, "mrr": 0.5, "rang_premier": 2}
+{"id": "q011", "lang": "fr", "methode": "dense", "gold": [44, 45, 46], "top5": [46, 88, 45, 6, 13], "recall@1": 0.3333333333333333, "recall@3": 0.6666666666666666, "recall@5": 0.6666666666666666, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q011", "lang": "fr", "methode": "hybride", "gold": [44, 45, 46], "top5": [46, 45, 44, 83, 15], "recall@1": 0.3333333333333333, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q011", "lang": "fr", "methode": "hybride+rerank", "gold": [44, 45, 46], "top5": [44, 83, 46, 49, 42], "recall@1": 0.3333333333333333, "recall@3": 0.6666666666666666, "recall@5": 0.6666666666666666, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q012", "lang": "fr", "methode": "bm25", "gold": [83], "top5": [83, 84, 3, 42, 56], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q012", "lang": "fr", "methode": "dense", "gold": [83], "top5": [83, 84, 65, 28, 12], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q012", "lang": "fr", "methode": "hybride", "gold": [83], "top5": [83, 84, 65, 42, 58], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q012", "lang": "fr", "methode": "hybride+rerank", "gold": [83], "top5": [83, 84, 58, 36, 47], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q013", "lang": "fr", "methode": "bm25", "gold": [22], "top5": [56, 28, 22, 61, 49], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.3333333333333333, "rang_premier": 3}
+{"id": "q013", "lang": "fr", "methode": "dense", "gold": [22], "top5": [22, 12, 15, 20, 57], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q013", "lang": "fr", "methode": "hybride", "gold": [22], "top5": [22, 89, 35, 12, 25], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q013", "lang": "fr", "methode": "hybride+rerank", "gold": [22], "top5": [22, 15, 47, 18, 20], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q014", "lang": "fr", "methode": "bm25", "gold": [5], "top5": [11, 88, 33, 38, 89], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q014", "lang": "fr", "methode": "dense", "gold": [5], "top5": [13, 88, 5, 14, 12], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.3333333333333333, "rang_premier": 3}
+{"id": "q014", "lang": "fr", "methode": "hybride", "gold": [5], "top5": [88, 13, 38, 33, 14], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.058823529411764705, "rang_premier": 17}
+{"id": "q014", "lang": "fr", "methode": "hybride+rerank", "gold": [5], "top5": [14, 88, 13, 33, 15], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.058823529411764705, "rang_premier": 17}
+{"id": "q015", "lang": "fr", "methode": "bm25", "gold": [21], "top5": [40, 61, 12, 60, 57], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.05, "rang_premier": 20}
+{"id": "q015", "lang": "fr", "methode": "dense", "gold": [21], "top5": [61, 15, 34, 48, 12], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.058823529411764705, "rang_premier": 17}
+{"id": "q015", "lang": "fr", "methode": "hybride", "gold": [21], "top5": [61, 12, 34, 57, 40], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.08333333333333333, "rang_premier": 12}
+{"id": "q015", "lang": "fr", "methode": "hybride+rerank", "gold": [21], "top5": [21, 12, 15, 61, 57], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q016", "lang": "fr", "methode": "bm25", "gold": [77], "top5": [14, 61, 13, 70, 35], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q016", "lang": "fr", "methode": "dense", "gold": [77], "top5": [10, 35, 6, 2, 37], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q016", "lang": "fr", "methode": "hybride", "gold": [77], "top5": [35, 6, 37, 13, 14], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q016", "lang": "fr", "methode": "hybride+rerank", "gold": [77], "top5": [33, 21, 34, 5, 13], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q017", "lang": "fr", "methode": "bm25", "gold": [26], "top5": [4, 35, 47, 36, 27], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.047619047619047616, "rang_premier": 21}
+{"id": "q017", "lang": "fr", "methode": "dense", "gold": [26], "top5": [26, 36, 35, 47, 28], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q017", "lang": "fr", "methode": "hybride", "gold": [26], "top5": [36, 28, 47, 35, 26], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.2, "rang_premier": 5}
+{"id": "q017", "lang": "fr", "methode": "hybride+rerank", "gold": [26], "top5": [26, 28, 36, 24, 47], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q018", "lang": "fr", "methode": "bm25", "gold": [30], "top5": [52, 81, 79, 60, 64], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.09090909090909091, "rang_premier": 11}
+{"id": "q018", "lang": "fr", "methode": "dense", "gold": [30], "top5": [28, 30, 10, 12, 11], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.5, "rang_premier": 2}
+{"id": "q018", "lang": "fr", "methode": "hybride", "gold": [30], "top5": [10, 40, 30, 61, 11], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.3333333333333333, "rang_premier": 3}
+{"id": "q018", "lang": "fr", "methode": "hybride+rerank", "gold": [30], "top5": [30, 9, 80, 10, 11], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q019", "lang": "fr", "methode": "bm25", "gold": [13], "top5": [35, 15, 38, 25, 13], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.2, "rang_premier": 5}
+{"id": "q019", "lang": "fr", "methode": "dense", "gold": [13], "top5": [13, 14, 15, 86, 88], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q019", "lang": "fr", "methode": "hybride", "gold": [13], "top5": [13, 14, 15, 40, 9], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q019", "lang": "fr", "methode": "hybride+rerank", "gold": [13], "top5": [13, 14, 15, 5, 40], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q020", "lang": "fr", "methode": "bm25", "gold": [14], "top5": [14, 12, 11, 13, 15], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q020", "lang": "fr", "methode": "dense", "gold": [14], "top5": [14, 13, 12, 7, 4], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q020", "lang": "fr", "methode": "hybride", "gold": [14], "top5": [14, 13, 12, 11, 15], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q020", "lang": "fr", "methode": "hybride+rerank", "gold": [14], "top5": [14, 13, 15, 4, 33], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q021", "lang": "en", "methode": "bm25", "gold": [15, 12], "top5": [14, 13, 61, 15, 78], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.5, "recall@10": 0.5, "mrr": 0.25, "rang_premier": 4}
+{"id": "q021", "lang": "en", "methode": "dense", "gold": [15, 12], "top5": [36, 61, 14, 12, 33], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.5, "recall@10": 0.5, "mrr": 0.25, "rang_premier": 4}
+{"id": "q021", "lang": "en", "methode": "hybride", "gold": [15, 12], "top5": [61, 13, 15, 14, 65], "recall@1": 0.0, "recall@3": 0.5, "recall@5": 0.5, "recall@10": 1.0, "mrr": 0.3333333333333333, "rang_premier": 3}
+{"id": "q021", "lang": "en", "methode": "hybride+rerank", "gold": [15, 12], "top5": [61, 12, 14, 33, 15], "recall@1": 0.0, "recall@3": 0.5, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.5, "rang_premier": 2}
+{"id": "q022", "lang": "en", "methode": "bm25", "gold": [21], "top5": [21, 88, 5, 64, 33], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q022", "lang": "en", "methode": "dense", "gold": [21], "top5": [11, 14, 13, 21, 17], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.25, "rang_premier": 4}
+{"id": "q022", "lang": "en", "methode": "hybride", "gold": [21], "top5": [21, 14, 33, 18, 5], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q022", "lang": "en", "methode": "hybride+rerank", "gold": [21], "top5": [21, 17, 5, 18, 14], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q023", "lang": "en", "methode": "bm25", "gold": [25], "top5": [66, 29, 61, 62, 70], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.037037037037037035, "rang_premier": 27}
+{"id": "q023", "lang": "en", "methode": "dense", "gold": [25], "top5": [13, 25, 11, 42, 14], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.5, "rang_premier": 2}
+{"id": "q023", "lang": "en", "methode": "hybride", "gold": [25], "top5": [13, 11, 32, 25, 42], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.25, "rang_premier": 4}
+{"id": "q023", "lang": "en", "methode": "hybride+rerank", "gold": [25], "top5": [32, 25, 35, 14, 42], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.5, "rang_premier": 2}
+{"id": "q024", "lang": "en", "methode": "bm25", "gold": [6], "top5": [28, 21, 4, 17, 48], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 1.0, "mrr": 0.1111111111111111, "rang_premier": 9}
+{"id": "q024", "lang": "en", "methode": "dense", "gold": [6], "top5": [44, 10, 86, 9, 98], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.047619047619047616, "rang_premier": 21}
+{"id": "q024", "lang": "en", "methode": "hybride", "gold": [6], "top5": [48, 18, 21, 28, 13], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.09090909090909091, "rang_premier": 11}
+{"id": "q024", "lang": "en", "methode": "hybride+rerank", "gold": [6], "top5": [21, 17, 6, 28, 48], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.3333333333333333, "rang_premier": 3}
+{"id": "q025", "lang": "en", "methode": "bm25", "gold": [16], "top5": [78, 5, 35, 32, 11], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q025", "lang": "en", "methode": "dense", "gold": [16], "top5": [17, 32, 19, 34, 15], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.058823529411764705, "rang_premier": 17}
+{"id": "q025", "lang": "en", "methode": "hybride", "gold": [16], "top5": [32, 20, 11, 80, 5], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.03125, "rang_premier": 32}
+{"id": "q025", "lang": "en", "methode": "hybride+rerank", "gold": [16], "top5": [5, 33, 18, 32, 21], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.03125, "rang_premier": 32}
+{"id": "q026", "lang": "en", "methode": "bm25", "gold": [2], "top5": [18, 51, 44, 6, 2], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.2, "rang_premier": 5}
+{"id": "q026", "lang": "en", "methode": "dense", "gold": [2], "top5": [1, 14, 89, 2, 25], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.25, "rang_premier": 4}
+{"id": "q026", "lang": "en", "methode": "hybride", "gold": [2], "top5": [2, 86, 3, 44, 25], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q026", "lang": "en", "methode": "hybride+rerank", "gold": [2], "top5": [2, 1, 5, 3, 25], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q027", "lang": "en", "methode": "bm25", "gold": [3, 27], "top5": [55, 11, 93, 22, 65], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 1.0, "mrr": 0.16666666666666666, "rang_premier": 6}
+{"id": "q027", "lang": "en", "methode": "dense", "gold": [3, 27], "top5": [3, 44, 2, 35, 22], "recall@1": 0.5, "recall@3": 0.5, "recall@5": 0.5, "recall@10": 0.5, "mrr": 1.0, "rang_premier": 1}
+{"id": "q027", "lang": "en", "methode": "hybride", "gold": [3, 27], "top5": [3, 22, 2, 11, 49], "recall@1": 0.5, "recall@3": 0.5, "recall@5": 0.5, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q027", "lang": "en", "methode": "hybride+rerank", "gold": [3, 27], "top5": [3, 2, 70, 40, 27], "recall@1": 0.5, "recall@3": 0.5, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q028", "lang": "en", "methode": "bm25", "gold": [82], "top5": [33, 34, 14, 49, 13], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 1.0, "mrr": 0.16666666666666666, "rang_premier": 6}
+{"id": "q028", "lang": "en", "methode": "dense", "gold": [82], "top5": [34, 33, 4, 82, 44], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.25, "rang_premier": 4}
+{"id": "q028", "lang": "en", "methode": "hybride", "gold": [82], "top5": [33, 34, 82, 4, 13], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.3333333333333333, "rang_premier": 3}
+{"id": "q028", "lang": "en", "methode": "hybride+rerank", "gold": [82], "top5": [82, 4, 34, 33, 49], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q029", "lang": "en", "methode": "bm25", "gold": [32], "top5": [32, 66, 35, 5, 45], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q029", "lang": "en", "methode": "dense", "gold": [32], "top5": [24, 1, 6, 35, 42], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 1.0, "mrr": 0.1111111111111111, "rang_premier": 9}
+{"id": "q029", "lang": "en", "methode": "hybride", "gold": [32], "top5": [35, 32, 24, 10, 84], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.5, "rang_premier": 2}
+{"id": "q029", "lang": "en", "methode": "hybride+rerank", "gold": [32], "top5": [35, 25, 5, 24, 32], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.2, "rang_premier": 5}
+{"id": "q030", "lang": "en", "methode": "bm25", "gold": [18], "top5": [92, 80, 60, 7, 22], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q030", "lang": "en", "methode": "dense", "gold": [18], "top5": [30, 5, 13, 35, 33], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.058823529411764705, "rang_premier": 17}
+{"id": "q030", "lang": "en", "methode": "hybride", "gold": [18], "top5": [80, 14, 33, 35, 22], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.02857142857142857, "rang_premier": 35}
+{"id": "q030", "lang": "en", "methode": "hybride+rerank", "gold": [18], "top5": [5, 14, 89, 13, 33], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.02857142857142857, "rang_premier": 35}
+{"id": "q031", "lang": "zh", "methode": "bm25", "gold": [9], "top5": [], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q031", "lang": "zh", "methode": "dense", "gold": [9], "top5": [88, 13, 12, 47, 6], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.045454545454545456, "rang_premier": 22}
+{"id": "q031", "lang": "zh", "methode": "hybride", "gold": [9], "top5": [88, 13, 12, 47, 6], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.045454545454545456, "rang_premier": 22}
+{"id": "q031", "lang": "zh", "methode": "hybride+rerank", "gold": [9], "top5": [88, 47, 13, 6, 2], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.045454545454545456, "rang_premier": 22}
+{"id": "q032", "lang": "zh", "methode": "bm25", "gold": [33], "top5": [], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q032", "lang": "zh", "methode": "dense", "gold": [33], "top5": [33, 36, 64, 13, 12], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q032", "lang": "zh", "methode": "hybride", "gold": [33], "top5": [33, 36, 64, 13, 12], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q032", "lang": "zh", "methode": "hybride+rerank", "gold": [33], "top5": [33, 12, 14, 36, 64], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q033", "lang": "zh", "methode": "bm25", "gold": [15], "top5": [], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q033", "lang": "zh", "methode": "dense", "gold": [15], "top5": [86, 80, 29, 18, 6], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.07692307692307693, "rang_premier": 13}
+{"id": "q033", "lang": "zh", "methode": "hybride", "gold": [15], "top5": [86, 80, 29, 18, 6], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.07692307692307693, "rang_premier": 13}
+{"id": "q033", "lang": "zh", "methode": "hybride+rerank", "gold": [15], "top5": [21, 17, 20, 13, 14], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 1.0, "mrr": 0.1, "rang_premier": 10}
+{"id": "q034", "lang": "zh", "methode": "bm25", "gold": [44, 45, 46], "top5": [], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q034", "lang": "zh", "methode": "dense", "gold": [44, 45, 46], "top5": [95, 13, 48, 20, 80], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.07692307692307693, "rang_premier": 13}
+{"id": "q034", "lang": "zh", "methode": "hybride", "gold": [44, 45, 46], "top5": [95, 13, 48, 20, 80], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.07692307692307693, "rang_premier": 13}
+{"id": "q034", "lang": "zh", "methode": "hybride+rerank", "gold": [44, 45, 46], "top5": [48, 44, 83, 20, 97], "recall@1": 0.0, "recall@3": 0.3333333333333333, "recall@5": 0.3333333333333333, "recall@10": 0.3333333333333333, "mrr": 0.5, "rang_premier": 2}
+{"id": "q035", "lang": "zh", "methode": "bm25", "gold": [37], "top5": [], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q035", "lang": "zh", "methode": "dense", "gold": [37], "top5": [38, 37, 35, 29, 14], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.5, "rang_premier": 2}
+{"id": "q035", "lang": "zh", "methode": "hybride", "gold": [37], "top5": [38, 37, 35, 29, 14], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.5, "rang_premier": 2}
+{"id": "q035", "lang": "zh", "methode": "hybride+rerank", "gold": [37], "top5": [37, 38, 39, 57, 42], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q036", "lang": "zh", "methode": "bm25", "gold": [8], "top5": [], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q036", "lang": "zh", "methode": "dense", "gold": [8], "top5": [8, 95, 7, 40, 6], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q036", "lang": "zh", "methode": "hybride", "gold": [8], "top5": [8, 95, 7, 40, 6], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q036", "lang": "zh", "methode": "hybride+rerank", "gold": [8], "top5": [8, 40, 7, 6, 13], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q037", "lang": "zh", "methode": "bm25", "gold": [83], "top5": [], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q037", "lang": "zh", "methode": "dense", "gold": [83], "top5": [83, 57, 65, 41, 84], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q037", "lang": "zh", "methode": "hybride", "gold": [83], "top5": [83, 57, 65, 41, 84], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q037", "lang": "zh", "methode": "hybride+rerank", "gold": [83], "top5": [83, 84, 41, 57, 36], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q038", "lang": "zh", "methode": "bm25", "gold": [28], "top5": [], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q038", "lang": "zh", "methode": "dense", "gold": [28], "top5": [38, 28, 96, 50, 13], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.5, "rang_premier": 2}
+{"id": "q038", "lang": "zh", "methode": "hybride", "gold": [28], "top5": [38, 28, 96, 50, 13], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.5, "rang_premier": 2}
+{"id": "q038", "lang": "zh", "methode": "hybride+rerank", "gold": [28], "top5": [28, 6, 96, 29, 36], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q039", "lang": "zh", "methode": "bm25", "gold": [20], "top5": [], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q039", "lang": "zh", "methode": "dense", "gold": [20], "top5": [13, 70, 40, 20, 11], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.25, "rang_premier": 4}
+{"id": "q039", "lang": "zh", "methode": "hybride", "gold": [20], "top5": [13, 70, 40, 20, 11], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.25, "rang_premier": 4}
+{"id": "q039", "lang": "zh", "methode": "hybride+rerank", "gold": [20], "top5": [20, 49, 28, 46, 70], "recall@1": 1.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 1.0, "rang_premier": 1}
+{"id": "q040", "lang": "zh", "methode": "bm25", "gold": [6], "top5": [], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 0.0, "mrr": 0.0, "rang_premier": null}
+{"id": "q040", "lang": "zh", "methode": "dense", "gold": [6], "top5": [86, 13, 14, 7, 80], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 1.0, "mrr": 0.1111111111111111, "rang_premier": 9}
+{"id": "q040", "lang": "zh", "methode": "hybride", "gold": [6], "top5": [86, 13, 14, 7, 80], "recall@1": 0.0, "recall@3": 0.0, "recall@5": 0.0, "recall@10": 1.0, "mrr": 0.1111111111111111, "rang_premier": 9}
+{"id": "q040", "lang": "zh", "methode": "hybride+rerank", "gold": [6], "top5": [7, 6, 13, 14, 18], "recall@1": 0.0, "recall@3": 1.0, "recall@5": 1.0, "recall@10": 1.0, "mrr": 0.5, "rang_premier": 2}
