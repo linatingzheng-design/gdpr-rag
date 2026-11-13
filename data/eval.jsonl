@@ -1,0 +1,40 @@
+{"id": "q001", "lang": "fr", "question": "Un client me demande de supprimer toutes ses données. Dans quels cas ai-je le droit de refuser ?", "gold": [17]}
+{"id": "q002", "lang": "fr", "question": "Mon entreprise doit-elle nommer un délégué à la protection des données ?", "gold": [37]}
+{"id": "q003", "lang": "fr", "question": "Nous avons été victimes d'un piratage. Combien de temps avons-nous pour prévenir l'autorité de contrôle ?", "gold": [33]}
+{"id": "q004", "lang": "fr", "question": "Faut-il aussi informer les personnes dont les données ont fuité, ou seulement l'autorité ?", "gold": [34, 33]}
+{"id": "q005", "lang": "fr", "question": "Un utilisateur peut-il récupérer ses données pour les transférer chez un concurrent ?", "gold": [20]}
+{"id": "q006", "lang": "fr", "question": "À partir de quel âge un adolescent peut-il consentir seul à l'inscription à un réseau social ?", "gold": [8]}
+{"id": "q007", "lang": "fr", "question": "Est-il permis de traiter des données sur l'origine ethnique ou la santé de mes salariés ?", "gold": [9]}
+{"id": "q008", "lang": "fr", "question": "Comment on peut retirer son consentement, et est-ce que c<est aussi simple que de le donner ?", "gold": [7]}
+{"id": "q009", "lang": "fr", "question": "Quand dois-je faire une analyse d'impact avant de lancer un nouveau traitement ?", "gold": [35]}
+{"id": "q010", "lang": "fr", "question": "Un fournisseur cloud qui héberge nos données doit-il signer un contrat avec nous ?", "gold": [28]}
+{"id": "q011", "lang": "fr", "question": "Peut-on envoyer les données de nos clients vers un serveur situé aux États-Unis ?", "gold": [44, 45, 46]}
+{"id": "q012", "lang": "fr", "question": "Quel est le montant maximal des amendes en cas de non-respect du règlement ?", "gold": [83]}
+{"id": "q013", "lang": "fr", "question": "Je veux contester un refus de prêt décidé uniquement par un algorithme. Ai-je des droits ?", "gold": [22]}
+{"id": "q014", "lang": "fr", "question": "Combien de temps puis-je conserver les données des candidats à un recrutement ?", "gold": [5]}
+{"id": "q015", "lang": "fr", "question": "Une personne peut-elle refuser de recevoir de la publicité ciblée ?", "gold": [21]}
+{"id": "q016", "lang": "fr", "question": "Comment porter plainte si mes données sont utilisées de façon abusive ?", "gold": [77]}
+{"id": "q017", "lang": "fr", "question": "Qui est responsable lorsque deux entreprises décident ensemble des finalités d'un traitement ?", "gold": [26]}
+{"id": "q018", "lang": "fr", "question": "Mon association doit-elle tenir un registre de ses traitements, même si elle est très petite ?", "gold": [30]}
+{"id": "q019", "lang": "fr", "question": "Quand je collecte des données directement auprès des gens, que dois-je leur dire ?", "gold": [13]}
+{"id": "q020", "lang": "fr", "question": "Je n'ai pas collecté les données auprès de la personne mais via un partenaire. Quelles informations dois-je lui donner ?", "gold": [14]}
+{"id": "q021", "lang": "en", "question": "Someone emailed asking for a copy of everything we hold on them. How long do we have to reply?", "gold": [15, 12]}
+{"id": "q022", "lang": "en", "question": "Can we keep using a customer's data for marketing after they told us to stop?", "gold": [21]}
+{"id": "q023", "lang": "en", "question": "Do we need to build privacy into our product from the very start?", "gold": [25]}
+{"id": "q024", "lang": "en", "question": "What legal grounds allow a company to process personal data at all?", "gold": [6]}
+{"id": "q025", "lang": "en", "question": "A person says the address we have on file for them is wrong. What must we do?", "gold": [16]}
+{"id": "q026", "lang": "en", "question": "Is a family photo-sharing website run by one individual for personal use covered by this regulation?", "gold": [2]}
+{"id": "q027", "lang": "en", "question": "Our company is based in Canada but sells online to people in Germany. Does the regulation apply to us?", "gold": [3, 27]}
+{"id": "q028", "lang": "en", "question": "If someone loses money because of a data breach at our company, can they claim money from us", "gold": [82]}
+{"id": "q029", "lang": "en", "question": "What security measures do we need to take according to the regulation?", "gold": [32]}
+{"id": "q030", "lang": "en", "question": "Can someone ask us to put their data on hold while we check if it’s accurate?", "gold": [18]}
+{"id": "q031", "lang": "zh", "question": "公司可以收集员工的指纹用于考勤打卡吗？", "gold": [9]}
+{"id": "q032", "lang": "zh", "question": "发生数据泄露后，公司需要在多长时间内通知监管机构？", "gold": [33]}
+{"id": "q033", "lang": "zh", "question": "用户想要公司告知他的个人数据被拿去做了什么，用户有这种权利吗？", "gold": [15]}
+{"id": "q034", "lang": "zh", "question": "把欧盟用户的数据传到中国的服务器，需要满足什么条件？", "gold": [44, 45, 46]}
+{"id": "q035", "lang": "zh", "question": "哪些情况下公司必须指定专门负责数据保护的人员？", "gold": [37]}
+{"id": "q036", "lang": "zh", "question": "未成年孩子在网上注册服务，需要父母同意吗？", "gold": [8]}
+{"id": "q037", "lang": "zh", "question": "违反规定最高会被罚多少钱？", "gold": [83]}
+{"id": "q038", "lang": "zh", "question": "公司把数据处理工作外包给第三方时，双方需要签订什么协议？", "gold": [28]}
+{"id": "q039", "lang": "zh", "question": "用户能要求公司把他的数据导出，然后换到别的平台吗？", "gold": [20]}
+{"id": "q040", "lang": "zh", "question": "公司在什么情况下可以收集用户数据？征得同意就可以吗？", "gold": [6]}
