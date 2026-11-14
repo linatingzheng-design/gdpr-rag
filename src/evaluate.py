@@ -1,12 +1,16 @@
 # evaluate.py : recall@k et MRR pour BM25, dense et hybride, par langue
+
+import sys
 import json
 from pathlib import Path
-
 from retrieve import Retriever, articles_uniques
 
+MODELE = sys.argv[1] if len(sys.argv) > 1 else "intfloat/multilingual-e5-small"
+
 EVAL = Path("data/eval.jsonl")
-SORTIE_MD = Path("results/metrics.md")
-SORTIE_DETAIL = Path("results/detail.jsonl")
+ETIQUETTE = sys.argv[2] if len(sys.argv) > 2 else "base"
+SORTIE_MD = Path(f"results/metrics_{ETIQUETTE}.md")
+SORTIE_DETAIL = Path(f"results/detail_{ETIQUETTE}.jsonl")
 
 METHODES = ["bm25", "dense", "hybride", "hybride+rerank"]
 KS = [1, 3, 5, 10]
@@ -89,7 +93,9 @@ def tableau_markdown(details, langue, titre):
 
 def main():
     questions = charger_questions()
-    retriever = Retriever()
+    retriever = Retriever(MODELE)
+    print(f"Modèle évalué : {MODELE} (étiquette : {ETIQUETTE})")
+    
 
     details = []
     for question in questions:

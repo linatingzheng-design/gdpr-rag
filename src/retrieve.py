@@ -9,8 +9,12 @@ from rank_bm25 import BM25Okapi
 from sentence_transformers import SentenceTransformer,CrossEncoder
 
 CHUNKS = Path("data/chunks.jsonl")
-EMBEDDINGS = Path("data/emb.npy")
-MODELE = "intfloat/multilingual-e5-small"
+MODELE_PAR_DEFAUT = "intfloat/multilingual-e5-small"
+
+
+def chemin_embeddings(modele):
+    # un fichier de cache par modèle, pour ne jamais mélanger les embeddings
+    return Path("data") / f"emb_{Path(modele).name}.npy"
 
 MODELE_RERANK = "BAAI/bge-reranker-v2-m3"
 N_RERANK = 20  # nombre de candidats hybrides soumis au reranker
@@ -41,8 +45,10 @@ def fusion_rrf(listes, k_rrf=60):
 
 
 class Retriever:
-    def __init__(self):
-        self.chunks = charger_chunks()        
+    def __init__(self, modele=MODELE_PAR_DEFAUT):
+        self.chunks = charger_chunks()
+        self.chemin_emb = chemin_embeddings(modele)
+    
 
         # index BM25 sur tous les chunks (en + fr)
         corpus_tokens = []
@@ -51,25 +57,24 @@ class Retriever:
         self.bm25 = BM25Okapi(corpus_tokens)
 
         # modèle dense et embeddings (calculés une seule fois, puis mis en cache)
-        self.modele = SentenceTransformer(MODELE)
+        self.modele = SentenceTransformer(modele)
         self.modele.max_seq_length = 512
         self.embeddings = self._charger_ou_calculer_embeddings()
-        self.reranker = None
+        self.reranker = None    
 
     def _charger_ou_calculer_embeddings(self):
-        if EMBEDDINGS.exists():
-            emb = np.load(EMBEDDINGS)
+        if self.chemin_emb.exists():
+            emb = np.load(self.chemin_emb)
             if emb.shape[0] == len(self.chunks):
                 return emb
             print("Cache obsolète (nombre de chunks différent), recalcul.")
-        # e5 exige le préfixe "passage: " côté documents
         textes = []
         for chunk in self.chunks:
             textes.append("passage: " + chunk["text"])
         emb = self.modele.encode(
             textes, batch_size=16, normalize_embeddings=True, show_progress_bar=True
         )
-        np.save(EMBEDDINGS, emb)
+        np.save(self.chemin_emb, emb)
         return emb
 
     def bm25_indices(self, question, k=50):
